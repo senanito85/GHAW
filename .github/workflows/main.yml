@@ -4,5 +4,12 @@ jobs:
   myjob:
     runs-on: ubuntu-latest
     steps:
+
+      - name: Checkout code
+        uses: actions/checkout@v2
       - name: just a simple ls command
         run: ls -la
+      
+      
+      
+      
